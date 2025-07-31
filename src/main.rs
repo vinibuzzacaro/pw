@@ -17,9 +17,7 @@ struct Cli {
     #[arg(short, long, global(true))]
     copy: bool,
     #[arg(short, long, global(true))]
-    quiet: bool,    
-    #[arg(short, long, global(true))]
-    verbose: bool
+    quiet: bool
 }
 
 #[derive(Subcommand)]
